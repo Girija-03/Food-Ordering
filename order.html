@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <marquee><h1>Details to place the order</h1></marquee>
+    <form action="home.html">
+        <label id="name">NAME:</label> 
+        <input id="name" type="text" required><br><br>
+        <label id="ph">PH.NO:</label> 
+        <input id="ph" type="number" minlength="10" required><br><br>
+        <label id="mail">EMAIL ID:</label> 
+        <input id="mail" type="email"><br><br>
+        <label id="address">ADDRESS:</label>
+        <textarea name="address" id="address" cols="5" rows="5"></textarea><br><br>
+        <label id="password">POSSWORD:</label> 
+        <input id="password" type="password" minlength="4" maxlength="10" required><br><br>
+        <label>GENDER:</label>
+        <label id="male" >Male</label> 
+        <input id="male" type="radio" name="gen">
+        <label id="female">Female</label> 
+        <input id="female" type="radio" name="gen"><br><br>
+        <label id="things" >SELECT YOUR FOOD TYPE:</label><br>
+        <select id="things">
+            <option class="veg">Vegetarian</option>
+            <option>Non Vegetarian</option>
+            <option>Kids food</option>
+            <option>Soft Drinks</option>
+            <option selected="Others">Others:</option>
+        </select><br><br>
+        <label id="food">TYPE YOUR FOOD NAME & IT'S PRICE:</label><br>
+        <input type="text" id="food"><br><br>
+        <input type="submit" style="position: relative;left:120px;height: 40px;">
+    </form>
+    
+</body>
+</html>
