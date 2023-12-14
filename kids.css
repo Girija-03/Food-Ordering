@@ -29,7 +29,7 @@ p{
 }
 .item:hover p{
     display: block;
-    color:white;
+    color:black;
 }
 img{
     width: 200px;
